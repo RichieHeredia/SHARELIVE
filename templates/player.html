@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- libreria css -->
+  <link rel="stylesheet" href="static/css/stylespl_2.css">
+  <!-- google-fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+  <!-- libreria iconos -->
+  <script src="http://kit.fontawesome.com/b99e675b6e.js"></script>
+  <!-- libreria bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- librerias jquery, and js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <title>Play</title>
+  <link rel="icon" href="static/sharelive.ico">
+</head>
+
+<body>
+  <div class="sidenav">
+    <a href="/" id="brand"><strong>ShareLive</strong></a>
+    <hr>
+    <a href="/Biblioteca" title="Biblioteca"><i class="fas fa-video"></i></a>
+    <a href="#" class="m event" title="Mi cuenta"><i class="fas fa-users"></i>
+    <a href="#" title="Sobre Nosotros"><i class="fas fa-heart"></i></i></a>
+    <a href="#" title="Historial de reproducción"><i class="fas fa-clock"></i></a>
+  </div>
+
+  <!-- player screen-->
+  <div class="main-screen">
+    <div class="show-present">
+      <h3>Título show</h3>
+      <br>
+      <div class="player">
+        <iframe id="player" src="https://player.twitch.tv/?channel=insomniac&parent=www.example.com" width="750px;" height="400px;" allowfullscreen="true"></iframe>
+      </div>
+      <!-- button description -->
+      <div class="btn-conteiner">
+        <div class="row">
+          <div class="col md-2">
+            <p id="views" class="text-muted">1.234.546</p>
+          </div>
+          <div class="col md-2">
+           <p class="text-muted">Visualizaciones</p>
+          </div>
+          <div class="col md-2">
+
+          </div>
+          <div class="col md-2">
+            <button class="btn " type="button" data-toggle="collapse" aria-controls="collapseExample">
+              <i class="fas fa-thumbs-up"></i>
+            </button>
+            <button class="btn " type="button" data-toggle="collapse" aria-controls="collapseExample">
+              <i class="fas fa-thumbs-down"></i>
+            </button>
+          </div>
+          <div class="col md-2">
+            <button class="btn " type="button">
+              <i class="fas fa-share-alt-square" title="Compartir"></i>
+            </button>
+          </div>
+        </div>
+          <div class="row">
+            <a class="btn " data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Descripción
+            </a>
+          </div>
+      </div>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+      </div>
+      <!-- end button description -->
+      <!-- carousel galery  -->
+      <div class="soon">
+        <br>
+        <h5>Contenido Similar</h5>
+        <hr>
+        <div id="schart" class="carousel slide chart-group" data-ride="carousel" data-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col mb-2">
+                  <div class="cartas">
+                    <img src="static/Articles\1.jpg" class="d-block" alt="...">
+                    <p>Descripción</p>
+                    <p class="text-muted counter-1e">This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="col mb-2">
+                  <div class="cartas">
+                    <img src="static/Articles\2.jpg" class="d-block" alt="...">
+                    <p>Descripción</p>
+                    <p class="text-muted counter-2e">This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="col mb-2">
+                  <div class="cartas">
+                    <img src="static/Articles\3.jpg" class="d-block" alt="...">
+                    <p>Descripción</p>
+                    <p class="text-muted counter-3e">This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="col mb-2">
+                  <div class="cartas">
+                    <img src="static/Articles\3.jpg" class="d-block" alt="...">
+                    <p>Descripción</p>
+                    <p class="text-muted counter-3e">This content is a little bit longer.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col mb-2">
+                  <div class="cartas">
+                    <img src="static/Articles\5.jpg" class="d-block" alt="...">
+                    <p>Descripción</p>
+                    <p class="text-muted counter-4e">This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="col mb-2">
+                  <div class="cartas">
+                    <img src="static/Articles\5.jpg" class="d-block" alt="...">
+                    <p>Descripción</p>
+                    <p class="text-muted counter-4e">This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="col mb-2">
+                  <div class="cartas">
+                    <img src="static/Articles\5.jpg" class="d-block" alt="...">
+                    <p>Descripción</p>
+                    <p class="text-muted counter-4e">This content is a little bit longer.</p>
+                  </div>
+                </div>
+                <div class="col mb-2">
+                  <div class="cartas">
+                    <img src="static/Articles\6.jpg" class="d-block" alt="...">
+                    <p>Descripción</p>
+                    <p class="text-muted counter-5e">This content is a little bit longer.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#schart" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#schart" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!-- end carousel galery -->
+    </div>
+
+  </div>
+  <!-- end player screen-->
+  <!-- right sidebar -->
+  <div class="rsidenav">
+    <div class="his">
+      <p>
+        <img src="static/Multimedia/user1.webp" alt="" width="50px;" height="50px;">
+        excelente servicio, de donde son?
+      </p>
+      <p>
+        Opino lo mismo,yo de colombia y tu?
+        <img src="static/Multimedia/user2.webp" alt="" width="50px;" height="50px;">
+      </p>
+      <p>
+        <img src="static/Multimedia/user3.webp" alt="" width="50px;" height="50px;">
+        yo también, de que parte?
+      </p>
+      <p>
+        Yo soy de argentina. Amo esta música
+        <img src="static/Multimedia/user4.webp" alt="" width="50px;" height="50px;">
+      </p>
+  </div>
+
+  <!-- comment-box -->
+<div class="text">
+
+  <form class="" >
+    <input id="textbox" type="text" value="" placeholder="Ingresa un comentario">
+    <button type="button" id="btn-send">Enviar</button>
+  </form>
+</div>
+    <!-- end comment-box -->
+  </div>
+  <!-- end right sidebar -->
+  <script src="static/JavaScript/library.js" charset="utf-8"></script>
+</body>
+
+</html>

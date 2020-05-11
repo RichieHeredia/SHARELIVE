@@ -1,0 +1,43 @@
+
+body{
+  background-color: #434e52;
+}
+.description{
+  text-align: center;
+  font-size: 30px;
+}
+.navbar{
+  background-color: #202040;
+}
+.navbar-brand {
+  font-family: 'Anton', sans-serif;
+}
+.left-menu {
+  margin: 0;
+}
+
+.left-con {
+  float: left;
+  margin-left: 0;
+  width: 200px;
+  border: 1px solid #C0BFBF;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* formulario */
+
+.middle-container{
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+}

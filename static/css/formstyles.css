@@ -1,0 +1,112 @@
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 60px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #090C12;
+  overflow: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+#brand{
+  padding: 0px 8px 10px 10px;
+  font-size: 10px;
+  color: #2762EA;
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 15px 8px 15px 8px;
+  text-decoration: none!important;
+  font-size: 15px;
+  color: #2762EA;
+  display: block;
+  text-align: center;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav hr{
+  width: 80%;
+  height: 1px;
+   border: 0;
+   color: #666;
+   background-color: #242527;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  margin-left: 60px; /* Same as the width of the sidebar */
+  background-image: url('bgplr.jpg');
+  /* background-image: url("Multimedia/cat2.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.description{
+  width: 300px;
+  height: 400px;
+  margin-left: 5%;
+  padding-top: 18%;
+}
+.description p{
+  font-size: 15px;
+}
+.vid-list{
+  height: 95%; /* Full-height: remove this if you want "auto" height */
+  width: 40%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  bottom: 0; /* Stay at the top */
+  right: 5%;
+  overflow-y:auto;
+
+}
+.vid img{
+  width: 300px;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+.vid img:hover{
+  transform: scale(1.1);
+  transition: all .5s ease-out;
+}
+.vid{
+    position: relative;
+    display: inline-block;
+    margin-left: 30%;
+}
+.centrado{
+    padding-left: 80px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: 'Squada One', cursive;
+}
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+.vid-list::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.vid-list::-webkit-scrollbar:vertical {
+    width:8px;
+}
+
+.vid-list::-webkit-scrollbar-button:increment,.vid-list::-webkit-scrollbar-button {
+    display: none;
+}
+
+.vid-list::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.vid-list::-webkit-scrollbar-thumb {
+    background-color: #109ED9;
+}

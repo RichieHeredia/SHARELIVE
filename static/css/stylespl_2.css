@@ -1,0 +1,161 @@
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 60px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #090C12;
+  overflow: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+#brand{
+  padding: 0px 8px 10px 10px;
+  font-size: 10px;
+  color: #2762EA;
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 15px 8px 15px 8px;
+  text-decoration: none!important;
+  font-size: 15px;
+  color: #2762EA;
+  display: block;
+  text-align: center;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav hr{
+  width: 80%;
+  height: 1px;
+   border: 0;
+   color: #666;
+   background-color: #242527;
+}
+.main-screen {
+  width: 63%;
+  height: 100%;
+  margin-left: 60px; /* Same as the width of the sidebar */
+  background-color: #0D1118;
+  background-size: cover;
+  color: white;
+  padding: 15px 0 15px 0;
+
+}
+.main-screen hr{
+  width: 95%;
+  height: 1px;
+   border: 0;
+   color: #666;
+   background-color: #242527;
+}
+.show-present h3{
+  margin-left: 30px;
+}
+.player{
+  /* margin: 0 auto 0 2%; */
+  text-align: center;
+}
+.btn-conteiner .row{
+margin-left: 0px;
+margin-right: 0px;
+}
+.btn-conteiner{
+  width: 750px;
+  margin-left: 30px;
+}
+.btn-conteiner .btn{
+  color:#666;
+}
+.btn-conteiner .btn:hover, .btn-conteiner a:hover{
+  color: blue;
+}
+#collapseExample{
+  color: white;
+  border:none;
+  width: 750px;
+  margin-left: 30px;
+}
+.card{
+  background-color: #0D1118!important;
+}
+/* estilos carousel galeria artista */
+.soon .carousel {
+  padding-top: 50px;
+  text-align: center;
+
+}
+.soon h5{
+  font-family: 'Anton', sans-serif;
+  padding-left: 30px;
+}
+.soon p{
+  font-size: 10px;
+  padding: 0;
+  margin-bottom: 0;
+}
+#schart{
+  width: 750px;
+  margin-left: 30px;
+}
+.chart-group .cartas:hover, .trending .cartas:hover{
+    transform: scale(1.1);
+    transition: all .5s ease-out;
+  }
+.chart-group img{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.chart-group .carousel-control-prev,
+.chart-group .carousel-control-next {
+  height: 15px;
+  width: 15px;
+}
+
+.chart-group .carousel-control-next {
+  left: 25px;
+}
+
+.rsidenav{
+  width: 33%;
+  height: 100vh;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #090C12;
+  overflow: hidden; /* Disable horizontal scroll */
+  padding: 10px;
+  color: white;
+}
+.his{
+  padding: 10px;
+  margin: 20px auto 0 20px;
+}
+#textbox{
+  width: 404px;
+  height: 156px;
+  margin: 50px 10px 10px auto;
+  border-radius: 2%;
+  padding: 10px;
+  background-color: #888888;
+  color: white;
+}
+#btn-send{
+  color: white;
+  background-color: #2762EA;
+  border-radius: 10%;
+  /* padding: auto 10px auto 10px; */
+  border-color: #2762EA;
+}
+@media only screen and (max-width: 1200px) {
+  .btn-conteiner{
+    width: 750px;
+    margin-left: 30px;
+  }
+}
